@@ -1,0 +1,79 @@
+#login,
+#loggedin {
+  display: none;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 500px;
+}
+
+button,
+hr {
+  vertical-align: middle;
+}
+
+hr {
+  background: rgb(205, 205, 205);
+  border: 0;
+  color: #000;
+  display: inline-block;
+  height: 50px;
+  width: 1px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #1db954;
+  color: #f5f5f5;
+  border: none;
+}
+
+.delete-btn {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  color: #f5f5f5 !important;
+  background-color: #d92121 !important;
+  padding: 0px;
+}
+
+.delete-btn:hover {
+  background-color: #790a0a !important;
+}
+
+.add-btn {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  color: #f5f5f5 !important;
+  background-color: #1db954 !important;
+  padding: 0px;
+
+}
+
+.add-btn:hover {
+  background-color: rgb(11, 122, 50) !important;
+}
+
+.controls {
+  border-top: 1px solid #e1e1e1;
+}
+
+.example {
+  width: 100%;
+  margin: 10px auto;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #1db954 !important;
+}
+
+.login-btn:hover{
+    text-decoration: none;
+
+}
